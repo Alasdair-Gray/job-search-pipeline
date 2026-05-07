@@ -1,0 +1,2186 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-03-27",
+    "sources": [
+      "b2b_saas_cv_jan_2026",
+      "healthtech_cv_jan_2026",
+      "linkedin_profile"
+    ],
+    "total_entries": 48,
+    "achievement_count": 36,
+    "role_context_count": 9,
+    "notes": "Database includes B2B SaaS CV (Jan 2026), healthtech CV (Jan 2026), and LinkedIn profile. PHE Product Owner role (Oct 2014–Dec 2017) added. UKTI, PageGroup and Fujitsu roles explicitly excluded per Alasdair's instruction.",
+    "profile_count": 3,
+    "last_updated": "2026-03-27"
+  },
+  "entries": [
+    {
+      "id": "ctx-regnav-001",
+      "entry_type": "role_context",
+      "job": {
+        "title": "Principal Product Manager / Product Director",
+        "company": "RegNav",
+        "location": "London",
+        "dates": "August 2024 – Present"
+      },
+      "original_bullet": "RegNav combines human experts with AI to radically reduce compliance costs for small businesses",
+      "cv_bullet": "RegNav combines human experts with AI to radically reduce compliance costs for small businesses",
+      "rag_text": "Company context: RegNav is an AI compliance startup combining human expert knowledge with AI to automate regulatory compliance workflows and reduce costs for small businesses.",
+      "star": null,
+      "skills": [
+        "AI product",
+        "compliance",
+        "B2B SaaS"
+      ],
+      "keywords": [
+        "RegNav",
+        "AI",
+        "compliance",
+        "automation",
+        "small business",
+        "regulatory"
+      ],
+      "domains": [
+        "AI",
+        "compliance",
+        "B2B SaaS"
+      ],
+      "achievement_type": "role_context",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ctx-regnav-002",
+      "entry_type": "role_context",
+      "job": {
+        "title": "Principal Product Manager / Product Director",
+        "company": "RegNav",
+        "location": "London",
+        "dates": "August 2024 – Present"
+      },
+      "original_bullet": "Principal Product Manager in a fast-paced B2B SaaS start up using AI to automate complex compliance workflows for highly regulated Medical Device manufacturers",
+      "cv_bullet": "Principal Product Manager in a fast-paced B2B SaaS start up using AI to automate complex compliance workflows for highly regulated Medical Device manufacturers",
+      "rag_text": "Role context: Principal PM at RegNav, a B2B SaaS startup automating compliance workflows for Medical Device manufacturers using AI. Fast-paced startup environment.",
+      "star": null,
+      "skills": [
+        "product management",
+        "B2B SaaS",
+        "AI",
+        "regulated industries",
+        "medical devices"
+      ],
+      "keywords": [
+        "Principal PM",
+        "B2B SaaS",
+        "startup",
+        "AI",
+        "compliance workflows",
+        "medical devices",
+        "regulated"
+      ],
+      "domains": [
+        "AI",
+        "compliance",
+        "medtech",
+        "B2B SaaS"
+      ],
+      "achievement_type": "role_context",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-regnav-001",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Principal Product Manager / Product Director",
+        "company": "RegNav",
+        "location": "London",
+        "dates": "August 2024 – Present"
+      },
+      "original_bullet": "Partner with senior leadership to define product vision and deliver key value metrics, reducing time to serve by 50% over a 6 month period and growing our sales pipeline to $250k",
+      "cv_bullet": "Partnered with senior leadership to define product vision and deliver key value metrics, reducing time to serve by 50% over 6 months and growing the sales pipeline to $250k",
+      "rag_text": "Partnered with senior leadership at RegNav to define product vision and deliver measurable value. Reduced time to serve customers by 50% over a 6-month period and grew the sales pipeline to $250k. Demonstrates strategic product leadership, stakeholder alignment, and direct commercial impact in a B2B SaaS startup.",
+      "star": {
+        "situation": "RegNav needed to define and validate its product vision in a competitive AI compliance market, with pressure to demonstrate commercial traction.",
+        "task": "As Principal PM, partner with senior leadership to set product direction and drive measurable improvements in both operational efficiency and pipeline growth.",
+        "action": "Worked closely with the leadership team to articulate product vision and prioritise features that directly reduced customer time-to-serve and generated new pipeline.",
+        "result": "Reduced time to serve by 50% over 6 months; grew the sales pipeline to $250k."
+      },
+      "skills": [
+        "product strategy",
+        "stakeholder management",
+        "commercial acumen",
+        "OKRs",
+        "leadership"
+      ],
+      "keywords": [
+        "product vision",
+        "senior leadership",
+        "time to serve",
+        "sales pipeline",
+        "value metrics",
+        "50%",
+        "$250k",
+        "startup"
+      ],
+      "domains": [
+        "B2B SaaS",
+        "AI",
+        "compliance"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-regnav-002",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Principal Product Manager / Product Director",
+        "company": "RegNav",
+        "location": "London",
+        "dates": "August 2024 – Present"
+      },
+      "original_bullet": "Manage a cross-functional team of developers, data engineers and data scientists using LLMs to distill unstructured data into concise and actionable insights that guide business decisions and meet regulatory requirements",
+      "cv_bullet": "Lead a cross-functional team of developers, data engineers and data scientists, using LLMs to distil unstructured regulatory data into concise, actionable insights",
+      "rag_text": "Led a cross-functional team at RegNav including developers, data engineers and data scientists. The team used large language models (LLMs) to process and distil unstructured regulatory data into concise, actionable insights for business decisions and compliance. Demonstrates technical PM leadership, AI/ML product experience, and cross-functional team management.",
+      "star": {
+        "situation": "RegNav's core product requires processing large volumes of unstructured regulatory data to produce useful compliance guidance for customers.",
+        "task": "Lead a cross-functional engineering and data science team to build and iterate on LLM-powered pipelines.",
+        "action": "Managed developers, data engineers and data scientists using LLMs to transform unstructured data into structured, actionable compliance insights.",
+        "result": "Delivered a product capability that distils complex regulatory content into concise guidance, meeting both business decision-making and regulatory requirements."
+      },
+      "skills": [
+        "cross-functional leadership",
+        "LLMs",
+        "AI/ML product",
+        "data science",
+        "team management"
+      ],
+      "keywords": [
+        "cross-functional",
+        "developers",
+        "data engineers",
+        "data scientists",
+        "LLMs",
+        "unstructured data",
+        "insights",
+        "regulatory",
+        "AI"
+      ],
+      "domains": [
+        "AI",
+        "compliance",
+        "data",
+        "B2B SaaS"
+      ],
+      "achievement_type": "leadership",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-regnav-003",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Principal Product Manager / Product Director",
+        "company": "RegNav",
+        "location": "London",
+        "dates": "August 2024 – Present"
+      },
+      "original_bullet": "Lead product discovery for new 0-1 initiatives, interviewing customers, prospects and regulatory experts to identify unmet needs and evaluate solutions",
+      "cv_bullet": "Led product discovery for 0-to-1 initiatives, interviewing customers, prospects and regulatory experts to identify unmet needs and evaluate solutions",
+      "rag_text": "Led 0-to-1 product discovery at RegNav, conducting user research with customers, prospects and regulatory subject matter experts. Identified unmet needs in the compliance space and evaluated potential solutions. Demonstrates experience owning early-stage product development, customer discovery and research-led decision making.",
+      "star": {
+        "situation": "RegNav needed to identify and validate new product opportunities in the compliance automation space.",
+        "task": "Lead discovery for new 0-to-1 initiatives from scratch, with no existing customer base for those products.",
+        "action": "Conducted interviews with customers, prospects and regulatory experts to surface unmet needs, then structured findings to evaluate and prioritise potential solutions.",
+        "result": "Generated validated product opportunities grounded in real customer and expert insight, informing the 0-to-1 product roadmap."
+      },
+      "skills": [
+        "product discovery",
+        "user research",
+        "0-to-1",
+        "customer interviews",
+        "market research"
+      ],
+      "keywords": [
+        "0-1",
+        "discovery",
+        "customer interviews",
+        "prospects",
+        "regulatory experts",
+        "unmet needs",
+        "solutions",
+        "research"
+      ],
+      "domains": [
+        "B2B SaaS",
+        "AI",
+        "compliance"
+      ],
+      "achievement_type": "0_to_1",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-regnav-004",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Principal Product Manager / Product Director",
+        "company": "RegNav",
+        "location": "London",
+        "dates": "August 2024 – Present"
+      },
+      "original_bullet": "Embedded a culture of rapid prototyping and experimentation, evaluating customer propositions and pricing models including freemium and subscription based models",
+      "cv_bullet": "Embedded a culture of rapid prototyping and experimentation, evaluating customer propositions and pricing models including freemium and subscription",
+      "rag_text": "Embedded a culture of rapid prototyping and experimentation at RegNav. Tested customer propositions and evaluated different pricing models including freemium and subscription-based approaches. Demonstrates ability to drive experimentation culture, commercial thinking around pricing strategy, and iterative product development in a startup.",
+      "star": {
+        "situation": "RegNav was an early-stage startup needing to find product-market fit and the right commercial model.",
+        "task": "Establish an experimentation culture and evaluate different go-to-market propositions and pricing strategies.",
+        "action": "Introduced rapid prototyping practices and ran experiments to test customer propositions, evaluating freemium and subscription pricing models.",
+        "result": "Created a data-driven approach to validating propositions and pricing, reducing risk on key commercial decisions."
+      },
+      "skills": [
+        "experimentation",
+        "prototyping",
+        "pricing strategy",
+        "product-market fit",
+        "commercial strategy"
+      ],
+      "keywords": [
+        "prototyping",
+        "experimentation",
+        "pricing",
+        "freemium",
+        "subscription",
+        "propositions",
+        "culture",
+        "startup"
+      ],
+      "domains": [
+        "B2B SaaS",
+        "AI",
+        "compliance"
+      ],
+      "achievement_type": "process_improvement",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-regnav-005",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Principal Product Manager / Product Director",
+        "company": "RegNav",
+        "location": "London",
+        "dates": "August 2024 – Present"
+      },
+      "original_bullet": "Implemented new ways of working and lead agile ceremonies to define and prioritise features, coaching the rest of the team to embed and improve delivery excellence",
+      "cv_bullet": "Implemented agile ways of working and led ceremonies to define and prioritise features, coaching the team to embed and improve delivery excellence",
+      "rag_text": "Implemented new agile ways of working at RegNav and led ceremonies to define and prioritise the product backlog. Coached the broader team on agile practices to improve delivery excellence. Demonstrates ability to introduce structured delivery processes in a startup environment and develop team capability.",
+      "star": {
+        "situation": "RegNav's engineering and product team needed more structured ways of working to improve delivery consistency.",
+        "task": "Introduce and embed agile practices across the team.",
+        "action": "Led agile ceremonies, defined feature prioritisation processes, and coached team members on delivery best practices.",
+        "result": "Embedded a culture of delivery excellence with clearer processes for feature prioritisation and team alignment."
+      },
+      "skills": [
+        "agile",
+        "delivery",
+        "coaching",
+        "team development",
+        "process implementation"
+      ],
+      "keywords": [
+        "agile",
+        "ceremonies",
+        "prioritise",
+        "features",
+        "coaching",
+        "delivery excellence",
+        "ways of working"
+      ],
+      "domains": [
+        "B2B SaaS",
+        "AI",
+        "compliance"
+      ],
+      "achievement_type": "process_improvement",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ctx-drdoctor-001",
+      "entry_type": "role_context",
+      "job": {
+        "title": "Lead Product Manager",
+        "company": "DrDoctor",
+        "location": "London",
+        "dates": "December 2022 – June 2024"
+      },
+      "original_bullet": "Lead Product Manager for DrDoctor's market leading patient engagement platform (B2B SaaS) managing over 100 million NHS appointments annually and reducing DNA rates by up to 20%",
+      "cv_bullet": "Lead Product Manager for DrDoctor's market-leading patient engagement platform (B2B SaaS), managing over 100 million NHS appointments annually and reducing DNA rates by up to 20%",
+      "rag_text": "Role context: Lead PM at DrDoctor, a B2B SaaS healthtech company. The platform manages over 100 million NHS appointments annually and reduces did-not-attend (DNA) rates by up to 20%. NOTE: The 20% DNA reduction is a platform-level metric — Alasdair's specific contribution to this figure needs clarifying before this becomes a standalone achievement entry.",
+      "star": null,
+      "skills": [
+        "product management",
+        "B2B SaaS",
+        "healthtech",
+        "NHS",
+        "patient engagement"
+      ],
+      "keywords": [
+        "DrDoctor",
+        "patient engagement",
+        "B2B SaaS",
+        "NHS",
+        "appointments",
+        "DNA rates",
+        "healthtech"
+      ],
+      "domains": [
+        "healthtech",
+        "NHS",
+        "B2B SaaS"
+      ],
+      "achievement_type": "role_context",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null,
+      "flag": "ach-drdoctor-001: DNA rate reduction (20%) is a platform-level metric. Ask Alasdair for his specific contribution before promoting to achievement."
+    },
+    {
+      "id": "ach-drdoctor-001",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Lead Product Manager",
+        "company": "DrDoctor",
+        "location": "London",
+        "dates": "December 2022 – June 2024"
+      },
+      "original_bullet": "Used data, research and qualitative insights to deliver new product lines and iterations including solutions to automate waiting list management and a new direct messaging product enabling secure communication between patients and hospital staff",
+      "cv_bullet": "Used data, research and qualitative insights to deliver new product lines including waiting list management automation and a secure direct messaging product for patients and hospital staff",
+      "rag_text": "At DrDoctor, used data, research and qualitative insights to drive product decisions and deliver new product lines. Delivered a waiting list management automation solution and a new direct messaging product enabling secure communication between patients and hospital staff. Demonstrates data-driven product development, research-led decision making and delivery of new B2B SaaS features in a healthtech context.",
+      "star": {
+        "situation": "DrDoctor needed to expand its patient engagement platform with new capabilities to address NHS waiting list pressures and communication challenges.",
+        "task": "As Lead PM, identify and deliver new product lines through a research and data-driven process.",
+        "action": "Used data, qualitative research and customer insights to scope and deliver two new product lines: waiting list management automation and a secure direct messaging product.",
+        "result": "Delivered new products that addressed NHS operational challenges around waiting list management and patient-staff communication."
+      },
+      "skills": [
+        "product delivery",
+        "research",
+        "data-driven decisions",
+        "new product development",
+        "healthtech"
+      ],
+      "keywords": [
+        "data",
+        "research",
+        "qualitative insights",
+        "waiting list",
+        "automation",
+        "direct messaging",
+        "patients",
+        "hospital",
+        "NHS",
+        "new product"
+      ],
+      "domains": [
+        "healthtech",
+        "NHS",
+        "B2B SaaS"
+      ],
+      "achievement_type": "new_product",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-drdoctor-002",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Lead Product Manager",
+        "company": "DrDoctor",
+        "location": "London",
+        "dates": "December 2022 – June 2024"
+      },
+      "original_bullet": "Led a team of 5 Product Managers delivering our AI powered DNA predictor tool (data product delivered via Data Bricks and MS Azure services)",
+      "cv_bullet": "Led a team of 5 Product Managers delivering an AI-powered DNA predictor tool, built on Databricks and MS Azure",
+      "rag_text": "Led a team of 5 Product Managers at DrDoctor to deliver an AI-powered DNA (did-not-attend) predictor tool. The data product was built on Databricks and Microsoft Azure. Demonstrates people management of a PM team, AI/ML product leadership, and delivery of complex data products on cloud infrastructure.",
+      "star": {
+        "situation": "DrDoctor wanted to build an AI-powered tool to predict patient did-not-attend (DNA) rates, helping NHS trusts reduce appointment waste.",
+        "task": "Lead a team of 5 PMs to define, build and deliver the DNA predictor as a data product.",
+        "action": "Managed a team of 5 PMs and worked with data engineers to deliver the AI predictor on Databricks and Azure cloud infrastructure.",
+        "result": "Successfully delivered the AI-powered DNA predictor tool, enabling NHS trusts to proactively manage appointment attendance."
+      },
+      "skills": [
+        "people management",
+        "AI/ML product",
+        "data products",
+        "team leadership",
+        "cloud infrastructure"
+      ],
+      "keywords": [
+        "team of 5",
+        "Product Managers",
+        "AI",
+        "DNA predictor",
+        "Databricks",
+        "Azure",
+        "data product",
+        "machine learning"
+      ],
+      "domains": [
+        "healthtech",
+        "NHS",
+        "B2B SaaS",
+        "AI",
+        "data"
+      ],
+      "achievement_type": "leadership",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-drdoctor-003",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Lead Product Manager",
+        "company": "DrDoctor",
+        "location": "London",
+        "dates": "December 2022 – June 2024"
+      },
+      "original_bullet": "Led 0-1 discovery, scoping and product development for a new 'eMeet and Greet' automation product, winning funding of over £1m from NHS England",
+      "cv_bullet": "Led 0-to-1 discovery, scoping and development of a new eMeet and Greet automation product, securing over £1m in funding from NHS England",
+      "rag_text": "Led 0-to-1 discovery, scoping and product development for a new eMeet and Greet automation product at DrDoctor, and won over £1m in NHS England funding for it. Demonstrates ability to own the full 0-to-1 lifecycle from discovery through to securing investment, and experience securing public sector funding for new healthcare products.",
+      "star": {
+        "situation": "DrDoctor identified an opportunity to automate the patient 'meet and greet' process for NHS trusts, but needed to validate the concept and secure funding to build it.",
+        "task": "Own the 0-to-1 journey from discovery through to funding application for a new automation product.",
+        "action": "Led discovery and scoping with customers and stakeholders, built the product case, and successfully applied for NHS England funding.",
+        "result": "Won over £1m in NHS England funding to develop the eMeet and Greet automation product."
+      },
+      "skills": [
+        "0-to-1",
+        "product discovery",
+        "funding",
+        "stakeholder management",
+        "NHS",
+        "business case"
+      ],
+      "keywords": [
+        "0-1",
+        "discovery",
+        "scoping",
+        "eMeet and Greet",
+        "automation",
+        "£1m",
+        "NHS England",
+        "funding",
+        "new product"
+      ],
+      "domains": [
+        "healthtech",
+        "NHS",
+        "B2B SaaS"
+      ],
+      "achievement_type": "0_to_1",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-drdoctor-004",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Lead Product Manager",
+        "company": "DrDoctor",
+        "location": "London",
+        "dates": "December 2022 – June 2024"
+      },
+      "original_bullet": "Managed a roadmap of experimentation for 5 development teams using data, research and qualitative insights to de-risk investment, grow adoption and reduce time to value on new product iterations",
+      "cv_bullet": "Managed a roadmap of experimentation across 5 development teams, using data and research to de-risk investment, grow adoption and reduce time to value",
+      "rag_text": "Managed a product experimentation roadmap across 5 development teams at DrDoctor, using data, research and qualitative insights to de-risk investment decisions, grow product adoption and reduce time to value on new iterations. Demonstrates ability to manage multiple teams, apply evidence-based approaches to product development and drive adoption at scale.",
+      "star": {
+        "situation": "DrDoctor had 5 development teams working on product iterations and needed a structured approach to prioritisation and experimentation to make the most of engineering capacity.",
+        "task": "Define and manage an experimentation roadmap that reduced investment risk while maximising adoption and value delivery.",
+        "action": "Used data, research and qualitative insights to design and manage a roadmap of experiments across all 5 teams, iterating based on results.",
+        "result": "De-risked product investment decisions, grew adoption and reduced time to value across new product iterations."
+      },
+      "skills": [
+        "roadmap management",
+        "experimentation",
+        "data-driven decisions",
+        "multi-team coordination",
+        "adoption"
+      ],
+      "keywords": [
+        "roadmap",
+        "experimentation",
+        "5 development teams",
+        "data",
+        "research",
+        "adoption",
+        "time to value",
+        "de-risk"
+      ],
+      "domains": [
+        "healthtech",
+        "NHS",
+        "B2B SaaS"
+      ],
+      "achievement_type": "process_improvement",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-drdoctor-005",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Lead Product Manager",
+        "company": "DrDoctor",
+        "location": "London",
+        "dates": "December 2022 – June 2024"
+      },
+      "original_bullet": "Set OKRs and North star metrics for my team aligned to company goals and delivered a major strategy refresh repositioning our products for growth in new market segments",
+      "cv_bullet": "Set OKRs and North Star metrics aligned to company goals, and led a major strategy refresh repositioning the product portfolio for growth in new market segments",
+      "rag_text": "Set OKRs and North Star metrics for the product team at DrDoctor, aligned to company-level goals. Led a major strategy refresh that repositioned the product portfolio to target growth in new market segments. Demonstrates strategic product leadership, ability to define and communicate measurable goals, and commercial awareness in identifying new growth opportunities.",
+      "star": {
+        "situation": "DrDoctor needed to align product team goals to company strategy and find new avenues for growth beyond its existing market.",
+        "task": "Define team-level OKRs and North Star metrics, and lead a strategic refresh of the product portfolio.",
+        "action": "Set OKRs and North Star metrics cascaded from company goals, then led a major strategy review that identified new market segments for product growth.",
+        "result": "Delivered a refreshed strategy and measurable goal framework that repositioned the product for growth in new market segments."
+      },
+      "skills": [
+        "OKRs",
+        "strategy",
+        "product leadership",
+        "North Star metrics",
+        "market expansion"
+      ],
+      "keywords": [
+        "OKRs",
+        "North Star",
+        "metrics",
+        "strategy refresh",
+        "growth",
+        "market segments",
+        "company goals",
+        "alignment"
+      ],
+      "domains": [
+        "healthtech",
+        "NHS",
+        "B2B SaaS"
+      ],
+      "achievement_type": "strategy",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ctx-healthhero-001",
+      "entry_type": "role_context",
+      "job": {
+        "title": "Senior Product Manager, Symbio",
+        "company": "HealthHero",
+        "location": "London",
+        "dates": "August 2022 – December 2022"
+      },
+      "original_bullet": "Senior Product Manager for HealthHero's B2B SaaS product, Symbio, improving access to healthcare for employees (B2B2C business model)",
+      "cv_bullet": "Senior Product Manager for HealthHero's B2B SaaS product, Symbio, improving access to healthcare for employees (B2B2C business model)",
+      "rag_text": "Role context: Senior PM at HealthHero for their B2B SaaS product Symbio, which improves employee access to healthcare. B2B2C business model where employers are the customer and employees are the end users.",
+      "star": null,
+      "skills": [
+        "product management",
+        "B2B SaaS",
+        "B2B2C",
+        "healthtech"
+      ],
+      "keywords": [
+        "HealthHero",
+        "Symbio",
+        "B2B SaaS",
+        "B2B2C",
+        "healthcare",
+        "employees"
+      ],
+      "domains": [
+        "healthtech",
+        "B2B SaaS",
+        "B2B2C"
+      ],
+      "achievement_type": "role_context",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-healthhero-001",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager, Symbio",
+        "company": "HealthHero",
+        "location": "London",
+        "dates": "August 2022 – December 2022"
+      },
+      "original_bullet": "Delivered improvements to the AI powered in-app conversational interface, improving recall and accuracy of content served to users in response to key words detected in user generated prompts",
+      "cv_bullet": "Delivered improvements to the AI-powered in-app conversational interface, improving recall and accuracy of content served in response to user-generated prompts",
+      "rag_text": "Delivered improvements to HealthHero's AI-powered conversational interface in the Symbio app. Improved the recall and accuracy of content served to users based on keywords detected in user-generated prompts. Demonstrates experience working on AI/NLP-powered product features, improving model performance from a product perspective, and iterating on conversational UX.",
+      "star": {
+        "situation": "HealthHero's Symbio app used an AI-powered conversational interface but content recall and accuracy needed improvement to better serve users.",
+        "task": "Improve the performance of the conversational AI feature to serve more relevant and accurate content to users.",
+        "action": "Identified gaps in content recall and accuracy, worked with the engineering team to improve keyword detection and content matching in the conversational interface.",
+        "result": "Improved recall and accuracy of content served to users in response to their prompts."
+      },
+      "skills": [
+        "AI/NLP",
+        "conversational UI",
+        "product iteration",
+        "content strategy",
+        "healthtech"
+      ],
+      "keywords": [
+        "AI",
+        "conversational interface",
+        "recall",
+        "accuracy",
+        "keywords",
+        "prompts",
+        "NLP",
+        "in-app"
+      ],
+      "domains": [
+        "healthtech",
+        "AI",
+        "B2B SaaS",
+        "B2B2C"
+      ],
+      "achievement_type": "product_improvement",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ctx-globant-001",
+      "entry_type": "role_context",
+      "job": {
+        "title": "Senior Product Manager, Nissan account",
+        "company": "Globant",
+        "location": "London",
+        "dates": "May 2021 – August 2022"
+      },
+      "original_bullet": "Client facing role working as a consultant for Globant embedded in the Nissan product team",
+      "cv_bullet": "Client-facing consultant for Globant, embedded in the Nissan product team",
+      "rag_text": "Role context: Senior PM at Globant (a global technology and digital transformation consultancy) working as a client-facing consultant embedded in Nissan's product team. Demonstrates consulting experience and ability to work within a large client organisation.",
+      "star": null,
+      "skills": [
+        "consulting",
+        "client management",
+        "stakeholder management"
+      ],
+      "keywords": [
+        "Globant",
+        "consultant",
+        "client-facing",
+        "Nissan",
+        "embedded"
+      ],
+      "domains": [
+        "consulting",
+        "automotive",
+        "digital"
+      ],
+      "achievement_type": "role_context",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ctx-globant-002",
+      "entry_type": "role_context",
+      "job": {
+        "title": "Senior Product Manager, Nissan account",
+        "company": "Globant",
+        "location": "London",
+        "dates": "May 2021 – August 2022"
+      },
+      "original_bullet": "Global Product Manager for Nissan's Browsing and Exploring product portfolio, including the Nissan homepage and vehicle landing pages (c.8.5 million unique visitors per day)",
+      "cv_bullet": "Global Product Manager for Nissan's Browsing and Exploring portfolio — homepage and vehicle landing pages — serving c.8.5 million unique visitors per day",
+      "rag_text": "Role context / scale signal: Global PM for Nissan's Browsing and Exploring product portfolio, including the global homepage and vehicle landing pages. The portfolio received approximately 8.5 million unique visitors per day, demonstrating experience managing high-traffic digital products at global scale.",
+      "star": null,
+      "skills": [
+        "global product management",
+        "high-traffic platforms",
+        "digital product"
+      ],
+      "keywords": [
+        "Nissan",
+        "global",
+        "homepage",
+        "landing pages",
+        "8.5 million",
+        "visitors",
+        "scale",
+        "portfolio"
+      ],
+      "domains": [
+        "automotive",
+        "digital",
+        "e-commerce"
+      ],
+      "achievement_type": "role_context",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null,
+      "flag": "ach-globant-002: 8.5m unique visitors/day is a strong scale signal. Consider weaving into other Globant entries as context."
+    },
+    {
+      "id": "ach-globant-001",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager, Nissan account",
+        "company": "Globant",
+        "location": "London",
+        "dates": "May 2021 – August 2022"
+      },
+      "original_bullet": "Used A/B tests, analytics and qualitative insights to improve UX and optimise conversion rates on the Nissan Ariya pre-order e-Commerce journey, growing global revenues by an additional £6m",
+      "cv_bullet": "Used A/B tests, analytics and qualitative insights to optimise conversion on the Nissan Ariya pre-order e-commerce journey, growing global revenues by an additional £6m",
+      "rag_text": "Used A/B testing, web analytics and qualitative research to improve UX and optimise conversion rates on the Nissan Ariya electric vehicle pre-order e-commerce journey. Generated an additional £6m in global revenues. Demonstrates data-driven product optimisation, e-commerce expertise, A/B testing, and the ability to drive significant commercial impact through iterative UX improvements.",
+      "star": {
+        "situation": "Nissan was launching the Ariya electric vehicle and needed to maximise pre-orders through its global e-commerce journey.",
+        "task": "Improve UX and conversion rates on the Ariya pre-order journey using evidence-based product optimisation.",
+        "action": "Ran A/B tests, analysed web analytics and gathered qualitative insights to identify friction points and iterate on the pre-order UX.",
+        "result": "Grew global revenues from the Ariya pre-order journey by an additional £6m."
+      },
+      "skills": [
+        "A/B testing",
+        "conversion optimisation",
+        "e-commerce",
+        "analytics",
+        "UX",
+        "commercial impact"
+      ],
+      "keywords": [
+        "A/B tests",
+        "analytics",
+        "qualitative",
+        "UX",
+        "conversion",
+        "Nissan Ariya",
+        "e-commerce",
+        "£6m",
+        "revenue",
+        "pre-order"
+      ],
+      "domains": [
+        "automotive",
+        "digital",
+        "e-commerce"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-globant-002",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager, Nissan account",
+        "company": "Globant",
+        "location": "London",
+        "dates": "May 2021 – August 2022"
+      },
+      "original_bullet": "Led a virtual team including experience design, UX, UI, development and analytics to deliver a roadmap of features that improved online customer experience and drove digitally influenced sales",
+      "cv_bullet": "Led a virtual cross-functional team (experience design, UX, UI, development, analytics) to deliver a roadmap of features improving online customer experience and driving digitally influenced sales",
+      "rag_text": "Led a virtual cross-functional team at Nissan via Globant, including experience design, UX, UI designers, developers and analytics specialists. Delivered a roadmap of features that improved online customer experience and drove digitally influenced sales. Demonstrates ability to lead diverse, virtual teams across disciplines and geographies to deliver measurable commercial outcomes.",
+      "star": {
+        "situation": "Nissan needed to continuously improve its digital customer experience to influence car purchase decisions online, with teams spread across multiple disciplines and locations.",
+        "task": "Lead a virtual cross-functional team to deliver a feature roadmap focused on improving the online experience and driving sales.",
+        "action": "Coordinated experience designers, UX/UI designers, developers and analytics specialists across a virtual team, prioritising and delivering roadmap features iteratively.",
+        "result": "Delivered features that measurably improved online customer experience and drove digitally influenced car sales."
+      },
+      "skills": [
+        "virtual team leadership",
+        "cross-functional",
+        "roadmap delivery",
+        "digital",
+        "stakeholder management"
+      ],
+      "keywords": [
+        "virtual team",
+        "experience design",
+        "UX",
+        "UI",
+        "development",
+        "analytics",
+        "roadmap",
+        "customer experience",
+        "digitally influenced sales"
+      ],
+      "domains": [
+        "automotive",
+        "digital",
+        "e-commerce"
+      ],
+      "achievement_type": "leadership",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-globant-003",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager, Nissan account",
+        "company": "Globant",
+        "location": "London",
+        "dates": "May 2021 – August 2022"
+      },
+      "original_bullet": "Used rapid prototyping and agile delivery to increase speed to market of new EV calculator products by two months",
+      "cv_bullet": "Used rapid prototyping and agile delivery to bring new EV calculator products to market two months ahead of schedule",
+      "rag_text": "Used rapid prototyping and agile delivery practices to accelerate time to market for new EV calculator products at Nissan, delivering two months earlier than planned. Demonstrates ability to apply prototyping and agile methods to increase delivery speed on new product features.",
+      "star": {
+        "situation": "Nissan needed to launch new EV calculator tools to support customer purchase decisions, but the original delivery timeline was too slow.",
+        "task": "Accelerate time to market for the EV calculator products.",
+        "action": "Applied rapid prototyping techniques and agile delivery practices to compress the development and delivery cycle.",
+        "result": "Brought the EV calculator products to market two months ahead of the original schedule."
+      },
+      "skills": [
+        "rapid prototyping",
+        "agile delivery",
+        "speed to market",
+        "EV",
+        "digital product"
+      ],
+      "keywords": [
+        "rapid prototyping",
+        "agile",
+        "speed to market",
+        "EV",
+        "calculator",
+        "two months",
+        "time to market"
+      ],
+      "domains": [
+        "automotive",
+        "digital"
+      ],
+      "achievement_type": "delivery",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-deloitte-001",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Product Manager, Learning and Development",
+        "company": "Deloitte LLP",
+        "location": "London",
+        "dates": "February 2019 – May 2021"
+      },
+      "original_bullet": "Developed the end to end product strategy and vision for Deloitte's internal learning and development portals including our award winning onboarding site Discover Deloitte, partnering with design and UX teams to develop user journeys",
+      "cv_bullet": "Developed end-to-end product strategy and vision for Deloitte's internal L&D portals, including the award-winning Discover Deloitte onboarding site, partnering with design and UX to develop user journeys",
+      "rag_text": "Developed end-to-end product strategy and vision for Deloitte's internal learning and development portals, including the award-winning Discover Deloitte onboarding site. Partnered with design and UX teams to develop user journeys. Demonstrates product strategy ownership, stakeholder collaboration and experience building internal digital products for a large professional services organisation.",
+      "star": {
+        "situation": "Deloitte needed a coherent product strategy for its internal L&D digital portals, which included the flagship onboarding site Discover Deloitte.",
+        "task": "Own the product strategy and vision for the L&D portal portfolio, from end to end.",
+        "action": "Developed the product strategy and vision, partnering with design and UX teams to create user journeys that met the needs of Deloitte's workforce.",
+        "result": "Delivered an award-winning onboarding experience (Discover Deloitte) and a clear product vision for the L&D portal portfolio."
+      },
+      "skills": [
+        "product strategy",
+        "UX",
+        "stakeholder management",
+        "L&D",
+        "internal products",
+        "design partnership"
+      ],
+      "keywords": [
+        "product strategy",
+        "vision",
+        "L&D",
+        "Discover Deloitte",
+        "onboarding",
+        "award-winning",
+        "UX",
+        "user journeys",
+        "design"
+      ],
+      "domains": [
+        "L&D",
+        "internal products",
+        "professional services"
+      ],
+      "achievement_type": "strategy",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-deloitte-002",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Product Manager, Learning and Development",
+        "company": "Deloitte LLP",
+        "location": "London",
+        "dates": "February 2019 – May 2021"
+      },
+      "original_bullet": "Increased traffic to our sites by an average of 67% per month and increased average dwell time to 6 minutes over a 6 month period by implementing event level tracking in GA and using insights to improve content and user journeys",
+      "cv_bullet": "Increased site traffic by an average of 67% per month and average dwell time to 6 minutes over 6 months, by implementing event-level GA tracking and using insights to improve content and user journeys",
+      "rag_text": "Increased traffic to Deloitte's L&D portals by an average of 67% per month and grew average dwell time to 6 minutes over a 6-month period. Achieved this by implementing event-level tracking in Google Analytics and using the resulting insights to improve content and user journeys. Demonstrates analytics implementation, data-driven product iteration and strong growth results.",
+      "star": {
+        "situation": "Deloitte's L&D portals were not performing well on traffic and engagement metrics, and lacked the analytics infrastructure to understand user behaviour.",
+        "task": "Grow traffic and engagement on the L&D portals using a data-driven approach.",
+        "action": "Implemented event-level tracking in Google Analytics to understand user behaviour, then used those insights to improve content and optimise user journeys.",
+        "result": "Increased site traffic by an average of 67% per month and grew average dwell time to 6 minutes over 6 months."
+      },
+      "skills": [
+        "analytics",
+        "Google Analytics",
+        "growth",
+        "content strategy",
+        "data-driven decisions",
+        "UX"
+      ],
+      "keywords": [
+        "traffic",
+        "67%",
+        "dwell time",
+        "6 minutes",
+        "Google Analytics",
+        "event tracking",
+        "insights",
+        "content",
+        "user journeys"
+      ],
+      "domains": [
+        "L&D",
+        "internal products",
+        "professional services"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-deloitte-003",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Product Manager, Learning and Development",
+        "company": "Deloitte LLP",
+        "location": "London",
+        "dates": "February 2019 – May 2021"
+      },
+      "original_bullet": "Delivered £300,000 in cost savings through implementing agile ways of working, re-imagining the tech strategy and developing detailed product roadmaps for each part of our portfolio",
+      "cv_bullet": "Delivered £300,000 in cost savings by implementing agile ways of working, re-imagining the tech strategy and developing detailed product roadmaps across the portfolio",
+      "rag_text": "Delivered £300,000 in cost savings at Deloitte by implementing agile ways of working, rethinking the technology strategy and developing detailed product roadmaps for each part of the L&D portfolio. Demonstrates commercial impact through operational improvements, ability to influence technology decisions and structured roadmap planning.",
+      "star": {
+        "situation": "Deloitte's L&D product team was operating with inefficient ways of working and an outdated tech strategy that was driving unnecessary costs.",
+        "task": "Reduce costs by improving how the team worked and challenging the existing technology approach.",
+        "action": "Implemented agile ways of working, rethought the tech strategy to eliminate unnecessary spend, and developed detailed roadmaps to improve planning efficiency.",
+        "result": "Delivered £300,000 in cost savings across the portfolio."
+      },
+      "skills": [
+        "agile",
+        "cost reduction",
+        "tech strategy",
+        "roadmap planning",
+        "process improvement"
+      ],
+      "keywords": [
+        "£300,000",
+        "cost savings",
+        "agile",
+        "tech strategy",
+        "roadmaps",
+        "portfolio",
+        "ways of working"
+      ],
+      "domains": [
+        "L&D",
+        "internal products",
+        "professional services"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ctx-phe-001",
+      "entry_type": "role_context",
+      "job": {
+        "title": "Senior Product Manager",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "December 2017 – February 2019"
+      },
+      "original_bullet": "Led a cross functional team (service design, UX, engineering, data) delivering PHE's digital transformation developing products with national profile including Couch to 5K native app, the One You website and mental health content hub and the \"How Are You?\" health quiz",
+      "cv_bullet": "Led a cross-functional team (service design, UX, engineering, data) delivering PHE's digital transformation, with products including the Couch to 5K app, One You website, mental health content hub and How Are You? quiz",
+      "rag_text": "Role context: Senior PM at Public Health England leading a cross-functional team delivering digital products as part of PHE's national digital transformation. Portfolio included nationally recognised products: Couch to 5K native app, One You website, mental health content hub and the How Are You? health quiz. NOTE: This entry may contain specific achievements not yet captured — flag for Alasdair to review.",
+      "star": null,
+      "skills": [
+        "cross-functional leadership",
+        "digital transformation",
+        "public sector",
+        "healthtech"
+      ],
+      "keywords": [
+        "PHE",
+        "digital transformation",
+        "Couch to 5K",
+        "One You",
+        "mental health",
+        "How Are You",
+        "cross-functional",
+        "public sector"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital",
+        "healthtech"
+      ],
+      "achievement_type": "role_context",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null,
+      "flag": "ach-phe-001: This is a portfolio overview. Ask Alasdair if there are specific achievements from this work not yet captured as standalone entries."
+    },
+    {
+      "id": "ach-phe-001",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "December 2017 – February 2019"
+      },
+      "original_bullet": "As Product Owner for the One You mobile app portfolio I grew total downloads by 1.4 million to 3.1 million in total over an 18 month period working with partners including the BBC, Amazon and Google.",
+      "cv_bullet": "As Product Owner for the One You mobile app portfolio, grew total downloads from 1.7m to 3.1m (+1.4m) over 18 months, working with partners including the BBC, Amazon and Google",
+      "rag_text": "As Product Owner for the One You mobile app portfolio at PHE, grew total downloads by 1.4 million to reach 3.1 million over an 18-month period. Achieved this working with major partners including the BBC, Amazon and Google. Demonstrates ability to grow a consumer product at significant scale, manage high-profile strategic partnerships and drive adoption of public health digital products.",
+      "star": {
+        "situation": "PHE's One You mobile app portfolio needed to grow its reach to have maximum public health impact.",
+        "task": "As Product Owner, grow downloads of the One You app portfolio.",
+        "action": "Developed and executed a growth strategy working with major media and technology partners including the BBC, Amazon and Google to drive awareness and downloads.",
+        "result": "Grew total downloads by 1.4 million to reach 3.1 million over 18 months."
+      },
+      "skills": [
+        "growth",
+        "partnerships",
+        "product ownership",
+        "consumer apps",
+        "public sector"
+      ],
+      "keywords": [
+        "One You",
+        "downloads",
+        "1.4 million",
+        "3.1 million",
+        "18 months",
+        "BBC",
+        "Amazon",
+        "Google",
+        "partnerships",
+        "app"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital",
+        "consumer apps"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-phe-002",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "December 2017 – February 2019"
+      },
+      "original_bullet": "Used data from web analytics and user reviews to make improvements to Couch to 5K that grew product downloads by 600,000 in 12 months to over 1 million and resulted in average ratings increasing from 3 stars to 4.8 stars on App Store with over 250,000 reviews and 4.7 stars on Google Play with over 30,000 reviews",
+      "cv_bullet": "Used data and user reviews to improve Couch to 5K, growing downloads by 600,000 in 12 months to over 1 million and lifting app store ratings from 3 stars to 4.8 (250k+ reviews) on iOS and 4.7 on Android",
+      "rag_text": "Used web analytics and user review data to make targeted improvements to the Couch to 5K app at PHE. Grew downloads by 600,000 in 12 months to over 1 million. Improved App Store rating from 3 stars to 4.8 stars with over 250,000 reviews, and Google Play rating to 4.7 stars with over 30,000 reviews. Demonstrates data-driven product improvement at consumer scale, with exceptional results on both growth and user satisfaction metrics.",
+      "star": {
+        "situation": "Couch to 5K had low ratings (3 stars) and needed to grow its user base significantly.",
+        "task": "Use data and user feedback to identify and fix the issues driving low ratings and limiting growth.",
+        "action": "Analysed web analytics and user reviews to identify the most impactful improvements, then prioritised and delivered those changes iteratively.",
+        "result": "Grew downloads by 600,000 in 12 months to over 1 million. App Store rating improved from 3 stars to 4.8 (250k+ reviews); Google Play rating reached 4.7 (30k+ reviews)."
+      },
+      "skills": [
+        "data-driven decisions",
+        "consumer apps",
+        "growth",
+        "user research",
+        "app store optimisation"
+      ],
+      "keywords": [
+        "Couch to 5K",
+        "downloads",
+        "600,000",
+        "1 million",
+        "ratings",
+        "4.8 stars",
+        "4.7 stars",
+        "App Store",
+        "Google Play",
+        "user reviews",
+        "analytics"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital",
+        "consumer apps"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-phe-003",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "December 2017 – February 2019"
+      },
+      "original_bullet": "Led the team that migrated the government drug information website, Talk to FRANK, to a new API enabled backend architecture including a headless CMS - this facilitated a 44% increase in traffic from organic search year-on-year",
+      "cv_bullet": "Led the migration of Talk to FRANK to a new API-enabled backend with headless CMS, driving a 44% increase in organic search traffic year-on-year",
+      "rag_text": "Led the team that migrated the UK government drug information website Talk to FRANK to a new API-enabled backend architecture with a headless CMS. This technical migration delivered a 44% year-on-year increase in organic search traffic. Demonstrates experience leading technical platform migrations, working with engineering on architecture decisions, and delivering measurable SEO/traffic impact.",
+      "star": {
+        "situation": "Talk to FRANK's legacy backend architecture was limiting the site's performance and SEO potential.",
+        "task": "Lead a platform migration to a modern API-enabled architecture with a headless CMS.",
+        "action": "Led the technical migration team, overseeing the move to an API-enabled backend and headless CMS architecture.",
+        "result": "Facilitated a 44% increase in organic search traffic year-on-year following the migration."
+      },
+      "skills": [
+        "technical product management",
+        "platform migration",
+        "headless CMS",
+        "SEO",
+        "API"
+      ],
+      "keywords": [
+        "Talk to FRANK",
+        "migration",
+        "API",
+        "headless CMS",
+        "organic search",
+        "44%",
+        "traffic",
+        "architecture"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "ach-phe-004",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "December 2017 – February 2019"
+      },
+      "original_bullet": "Led a multi-disciplinary team to deliver a complete rebuild of the One You website using Agile Scrum ways of working resulting in 2x increase in average page views per session, reduction in average load speed to less than 2 seconds and robust infrastructure that coped with traffic of 3.7 million hits in one day",
+      "cv_bullet": "Led a multi-disciplinary team to completely rebuild the One You website using Agile Scrum, achieving 2x page views per session, sub-2-second load times and infrastructure resilient to 3.7 million hits in a day",
+      "rag_text": "Led a multi-disciplinary team to deliver a complete rebuild of the One You website using Agile Scrum. Results: 2x increase in average page views per session, load speed reduced to under 2 seconds, and infrastructure robust enough to handle 3.7 million hits in a single day. Demonstrates ability to lead complex website rebuilds, deliver significant UX improvements, and build high-performance, resilient infrastructure.",
+      "star": {
+        "situation": "The One You website needed a complete rebuild to improve user experience, performance and reliability ahead of major campaigns.",
+        "task": "Lead a multi-disciplinary team to deliver the full website rebuild within an agile framework.",
+        "action": "Led a cross-functional Agile Scrum team through the complete rebuild of the One You website, focusing on performance, UX and infrastructure resilience.",
+        "result": "Achieved a 2x increase in average page views per session, reduced load speed to under 2 seconds, and built infrastructure that handled 3.7 million hits in one day."
+      },
+      "skills": [
+        "agile scrum",
+        "website rebuild",
+        "cross-functional leadership",
+        "performance",
+        "infrastructure"
+      ],
+      "keywords": [
+        "One You",
+        "rebuild",
+        "Agile Scrum",
+        "2x",
+        "page views",
+        "load speed",
+        "2 seconds",
+        "3.7 million hits",
+        "infrastructure",
+        "multi-disciplinary"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "profile-b2b-001",
+      "entry_type": "profile",
+      "job": null,
+      "original_bullet": "Innovative, hands-on Product Leader with 8+ years coaching and managing cross functional teams and mentoring junior PMs. Extensive experience using behavioural psychology and user-centred design to drive retention and growth in the B2B SaaS products. Proven ability to identify and commercialise new business opportunities, demonstrated by securing £1m in NHS funding for 0-1 development of a new product line at DrDoctor. Extensive experience delivering continuous improvement as evidenced by generating £6m in additional revenue at Nissan through rapid iteration and A/B testing.",
+      "cv_bullet": "Innovative, hands-on Product Leader with 8+ years coaching and managing cross functional teams and mentoring junior PMs. Extensive experience using behavioural psychology and user-centred design to drive retention and growth in the B2B SaaS products. Proven ability to identify and commercialise new business opportunities, demonstrated by securing £1m in NHS funding for 0-1 development of a new product line at DrDoctor. Extensive experience delivering continuous improvement as evidenced by generating £6m in additional revenue at Nissan through rapid iteration and A/B testing.",
+      "rag_text": "B2B SaaS-framed profile paragraph. Hands-on Product Leader, 8+ years, cross-functional teams, behavioural psychology, user-centred design, B2B SaaS retention and growth. £1m NHS funding secured, 0-to-1 product development, £6m revenue growth at Nissan through A/B testing and iteration.",
+      "star": null,
+      "skills": [
+        "product leadership",
+        "cross-functional teams",
+        "behavioural psychology",
+        "user-centred design",
+        "0-to-1",
+        "A/B testing"
+      ],
+      "keywords": [
+        "Product Leader",
+        "8+ years",
+        "B2B SaaS",
+        "behavioural psychology",
+        "user-centred design",
+        "£1m",
+        "NHS",
+        "£6m",
+        "Nissan",
+        "A/B testing"
+      ],
+      "domains": [
+        "B2B SaaS"
+      ],
+      "achievement_type": "profile",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "b2b_saas_cv_jan_2026",
+      "variant_of": null
+    },
+    {
+      "id": "profile-healthtech-001",
+      "entry_type": "profile",
+      "job": null,
+      "original_bullet": "Innovative, hands-on Product Leader with 8+ years coaching and managing cross functional teams and mentoring junior PMs. Extensive experience using behavioural psychology and user-centred design to drive retention and growth in the HealthTech industry. Proven ability to identify and commercialise new business opportunities, demonstrated by securing £1m in NHS funding for 0-1 development of a new product line at DrDoctor. Extensive experience delivering continuous improvement as evidenced by generating £6m in additional revenue at Nissan through rapid iteration and A/B testing.",
+      "cv_bullet": "Innovative, hands-on Product Leader with 8+ years coaching and managing cross functional teams and mentoring junior PMs. Extensive experience using behavioural psychology and user-centred design to drive retention and growth in the HealthTech industry. Proven ability to identify and commercialise new business opportunities, demonstrated by securing £1m in NHS funding for 0-1 development of a new product line at DrDoctor. Extensive experience delivering continuous improvement as evidenced by generating £6m in additional revenue at Nissan through rapid iteration and A/B testing.",
+      "rag_text": "Healthtech-framed profile paragraph. Hands-on Product Leader, 8+ years, cross-functional teams, behavioural psychology, user-centred design, HealthTech industry growth. £1m NHS funding secured, 0-to-1 product development, £6m revenue growth at Nissan through A/B testing and iteration.",
+      "star": null,
+      "skills": [
+        "product leadership",
+        "cross-functional teams",
+        "behavioural psychology",
+        "user-centred design",
+        "0-to-1",
+        "A/B testing"
+      ],
+      "keywords": [
+        "Product Leader",
+        "8+ years",
+        "HealthTech",
+        "behavioural psychology",
+        "user-centred design",
+        "£1m",
+        "NHS",
+        "£6m",
+        "Nissan",
+        "A/B testing"
+      ],
+      "domains": [
+        "healthtech"
+      ],
+      "achievement_type": "profile",
+      "quantified": true,
+      "framing": "healthtech",
+      "source": "healthtech_cv_jan_2026",
+      "variant_of": "profile-b2b-001"
+    },
+    {
+      "id": "ctx-drdoctor-001-ht",
+      "entry_type": "role_context",
+      "job": {
+        "title": "Lead Product Manager",
+        "company": "DrDoctor",
+        "location": "London",
+        "dates": "December 2022 – June 2024"
+      },
+      "original_bullet": "Lead Product Manager for DrDoctor's market leading patient engagement platform managing over 100 million NHS appointments annually and reducing DNA rates by up to 20%",
+      "cv_bullet": "Lead Product Manager for DrDoctor's market-leading patient engagement platform, managing over 100 million NHS appointments annually and reducing DNA rates by up to 20%",
+      "rag_text": "Role context (healthtech framing): Lead PM at DrDoctor, a healthtech company whose patient engagement platform manages over 100 million NHS appointments annually and reduces did-not-attend (DNA) rates by up to 20%. The '(B2B SaaS)' label is intentionally omitted in this framing to foreground the healthcare mission over the commercial model.",
+      "star": null,
+      "skills": [
+        "product management",
+        "healthtech",
+        "NHS",
+        "patient engagement"
+      ],
+      "keywords": [
+        "DrDoctor",
+        "patient engagement",
+        "NHS",
+        "appointments",
+        "DNA rates",
+        "healthtech"
+      ],
+      "domains": [
+        "healthtech",
+        "NHS"
+      ],
+      "achievement_type": "role_context",
+      "quantified": true,
+      "framing": "healthtech",
+      "source": "healthtech_cv_jan_2026",
+      "variant_of": "ctx-drdoctor-001",
+      "flag": "DNA rate reduction (20%) is a platform-level metric. Ask Alasdair for his specific contribution before promoting to achievement."
+    },
+    {
+      "id": "ach-phe-003-ht",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "December 2017 – February 2019"
+      },
+      "original_bullet": "Led the team that migrated the government drug information website, Talk to FRANK, to a new API enabled backend architecture including a headless CMS - this facilitated a 44% increase in traffic from organic search year-on-year, the biggest improvement the Google Accelerate team had ever seen",
+      "cv_bullet": "Led the migration of Talk to FRANK to a new API-enabled backend with headless CMS, driving a 44% increase in organic search traffic year-on-year — the biggest improvement the Google Accelerate team had ever seen",
+      "rag_text": "Led the team migrating Talk to FRANK (UK government drug information site) to an API-enabled backend with headless CMS. Delivered a 44% year-on-year increase in organic search traffic — described as the biggest improvement the Google Accelerate team had ever seen. Stronger than the B2B SaaS variant due to the Google Accelerate superlative, which adds third-party validation and benchmarks the result against Google's own programme cohort.",
+      "star": {
+        "situation": "Talk to FRANK's legacy backend was limiting SEO performance and organic traffic growth.",
+        "task": "Lead a platform migration to modern API-enabled architecture with a headless CMS.",
+        "action": "Led the technical migration team through the move to an API-enabled backend and headless CMS.",
+        "result": "44% increase in organic search traffic year-on-year — the biggest improvement the Google Accelerate team had ever seen."
+      },
+      "skills": [
+        "technical product management",
+        "platform migration",
+        "headless CMS",
+        "SEO",
+        "API",
+        "Google Accelerate"
+      ],
+      "keywords": [
+        "Talk to FRANK",
+        "migration",
+        "API",
+        "headless CMS",
+        "organic search",
+        "44%",
+        "traffic",
+        "Google Accelerate",
+        "biggest improvement"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": true,
+      "framing": "healthtech",
+      "source": "healthtech_cv_jan_2026",
+      "variant_of": "ach-phe-003"
+    },
+    {
+      "id": "ach-drdoctor-006",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Lead Product Manager",
+        "company": "DrDoctor",
+        "location": "London",
+        "dates": "December 2022 – June 2024"
+      },
+      "original_bullet": "Led evaluation and implementation of advanced analytics tools (including Amplitude and Mixpanel) to build a more robust data infrastructure for product decision-making",
+      "cv_bullet": "Led evaluation and implementation of advanced analytics tools (Amplitude, Mixpanel) to strengthen data infrastructure and improve evidence-based product decision-making",
+      "rag_text": "At DrDoctor, led the evaluation and implementation of advanced product analytics tools including Amplitude and Mixpanel. Built a more robust data infrastructure to support evidence-based product decisions. Demonstrates experience selecting and deploying analytics tooling, improving data maturity within a product team, and using quantitative data to drive product strategy.",
+      "star": {
+        "situation": "DrDoctor's product team needed stronger analytics infrastructure to make better-evidenced decisions about product development priorities.",
+        "task": "Evaluate analytics tool options and implement the right solution to improve data quality and decision-making.",
+        "action": "Led the evaluation of leading product analytics platforms including Amplitude and Mixpanel, selected the most suitable option, and oversaw implementation across the product.",
+        "result": "Improved data infrastructure enabled more robust, evidence-based product decision-making across the team."
+      },
+      "skills": [
+        "analytics",
+        "data infrastructure",
+        "product tooling",
+        "evidence-based decisions",
+        "Amplitude",
+        "Mixpanel"
+      ],
+      "keywords": [
+        "analytics",
+        "Amplitude",
+        "Mixpanel",
+        "data infrastructure",
+        "product analytics",
+        "tooling",
+        "evaluation",
+        "implementation"
+      ],
+      "domains": [
+        "healthtech",
+        "NHS",
+        "B2B SaaS"
+      ],
+      "achievement_type": "process_improvement",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": null
+    },
+    {
+      "id": "ach-drdoctor-007",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Lead Product Manager",
+        "company": "DrDoctor",
+        "location": "London",
+        "dates": "December 2022 – June 2024"
+      },
+      "original_bullet": "Used behavioural data analysis to identify patient cohorts most likely to miss appointments, enabling targeted interventions that contributed to reductions in DNA rates across NHS trust partners",
+      "cv_bullet": "Used behavioural data analysis to identify high-risk patient cohorts and enable targeted interventions, contributing to DNA rate reductions across NHS trust partners",
+      "rag_text": "At DrDoctor, used behavioural data analysis to identify specific patient cohorts most likely to miss appointments (did-not-attend / DNA). This enabled targeted intervention strategies that contributed to measurable reductions in DNA rates across NHS trust partners. Demonstrates ability to translate complex patient behaviour data into actionable product decisions with real clinical and operational impact.",
+      "star": {
+        "situation": "NHS trusts using DrDoctor's platform wanted to reduce did-not-attend (DNA) rates, but needed to understand which patient groups to target with interventions.",
+        "task": "Use data analysis to identify the patient cohorts most likely to miss appointments, so targeted interventions could be designed.",
+        "action": "Analysed behavioural data to identify and segment high-risk patient cohorts, then worked with product and clinical teams to develop targeted communication and reminder interventions.",
+        "result": "Enabled targeted interventions that contributed to reductions in DNA rates across NHS trust partners."
+      },
+      "skills": [
+        "behavioural data analysis",
+        "patient engagement",
+        "data-driven decisions",
+        "NHS",
+        "clinical impact"
+      ],
+      "keywords": [
+        "DNA rates",
+        "behavioural data",
+        "patient cohorts",
+        "targeted interventions",
+        "NHS",
+        "appointments",
+        "analysis",
+        "did-not-attend"
+      ],
+      "domains": [
+        "healthtech",
+        "NHS",
+        "B2B SaaS"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": "ach-drdoctor-002",
+      "flag": "User-benefit framing of ach-drdoctor-002. Use 007 when the JD emphasises patient/clinical outcomes; use 002 when it emphasises AI/data product delivery or technical leadership."
+    },
+    {
+      "id": "ach-globant-004",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager, Nissan account",
+        "company": "Globant",
+        "location": "London",
+        "dates": "May 2021 – August 2022"
+      },
+      "original_bullet": "Lead Product Owner for the global rollout of Nissan's e-Commerce platform to new markets, managing local adaptation of product features while maintaining global brand and UX consistency",
+      "cv_bullet": "Lead Product Owner for the global rollout of Nissan's e-commerce platform to new markets, managing local adaptation of features while maintaining global brand and UX consistency",
+      "rag_text": "Served as Lead Product Owner for the global rollout of Nissan's e-commerce platform to new markets via Globant. Managed the local adaptation of product features for each market while maintaining consistency with global brand and UX standards. Demonstrates experience leading complex multi-market product rollouts, managing localisation requirements, and balancing global product standards with local market needs.",
+      "star": {
+        "situation": "Nissan needed to expand its e-commerce platform to new international markets, requiring local adaptation of features while preserving a consistent global brand and user experience.",
+        "task": "As Lead Product Owner, oversee the multi-market rollout and manage the balance between localisation and global consistency.",
+        "action": "Led the global rollout programme, working with local market teams and stakeholders to define and deliver locally adapted product features within a global framework.",
+        "result": "Successfully rolled out Nissan's e-commerce platform to new markets, with locally adapted features and maintained global brand and UX consistency."
+      },
+      "skills": [
+        "global product management",
+        "e-commerce",
+        "localisation",
+        "multi-market rollout",
+        "stakeholder management"
+      ],
+      "keywords": [
+        "global rollout",
+        "e-commerce",
+        "Nissan",
+        "new markets",
+        "localisation",
+        "product owner",
+        "UX consistency",
+        "brand"
+      ],
+      "domains": [
+        "automotive",
+        "digital",
+        "e-commerce"
+      ],
+      "achievement_type": "delivery",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": null
+    },
+    {
+      "id": "ach-phe-005",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "December 2017 – February 2019"
+      },
+      "original_bullet": "Established a test, learn and refine model for content and product development across the PHE digital portfolio, reducing content development costs by 25% while improving content effectiveness",
+      "cv_bullet": "Established a test, learn and refine model across PHE's digital portfolio, reducing content development costs by 25% while improving content effectiveness",
+      "rag_text": "Established a structured test, learn and refine model for content and product development across Public Health England's digital portfolio. This approach reduced content development costs by 25% while improving the effectiveness of content served to users. Demonstrates ability to embed evidence-based, iterative ways of working in a large public sector organisation and deliver measurable cost and quality improvements.",
+      "star": {
+        "situation": "PHE's digital portfolio was developing content and product features without a structured, evidence-based approach to testing and iteration, leading to inefficiency and suboptimal outcomes.",
+        "task": "Establish a systematic test, learn and refine model across the digital portfolio to improve both efficiency and content quality.",
+        "action": "Designed and implemented a test, learn and refine framework across the PHE digital portfolio, embedding iterative testing into content and product development workflows.",
+        "result": "Reduced content development costs by 25% while improving content effectiveness across the portfolio."
+      },
+      "skills": [
+        "test and learn",
+        "content strategy",
+        "process improvement",
+        "public sector",
+        "cost reduction"
+      ],
+      "keywords": [
+        "test and learn",
+        "refine",
+        "content development",
+        "25%",
+        "cost reduction",
+        "PHE",
+        "digital portfolio",
+        "content effectiveness"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital"
+      ],
+      "achievement_type": "process_improvement",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": null
+    },
+    {
+      "id": "ach-phe-006",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "December 2017 – February 2019"
+      },
+      "original_bullet": "Line managed a team including 4 Senior Product Managers, providing coaching, mentoring and performance management to develop high-performing product teams",
+      "cv_bullet": "Line managed a team of 4 Senior Product Managers, providing coaching, mentoring and performance management",
+      "rag_text": "At Public Health England, line managed a team of 4 Senior Product Managers, providing coaching, mentoring and performance management to develop high-performing product teams. Demonstrates people leadership skills, experience managing senior ICs, and ability to grow and retain product talent within a large public sector organisation.",
+      "star": {
+        "situation": "As Senior PM at PHE, Alasdair had line management responsibility for a team of Senior Product Managers who needed coaching and development to perform at their best.",
+        "task": "Line manage the team of Senior PMs, providing the support and direction needed to build a high-performing product function.",
+        "action": "Provided regular 1-1 coaching, mentoring on product craft, and formal performance management for 4 Senior Product Managers.",
+        "result": "Built a high-performing, well-supported product team within PHE's digital function."
+      },
+      "skills": [
+        "people management",
+        "coaching",
+        "mentoring",
+        "performance management",
+        "team leadership"
+      ],
+      "keywords": [
+        "line management",
+        "Senior Product Managers",
+        "coaching",
+        "mentoring",
+        "performance management",
+        "team leadership",
+        "PHE"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital"
+      ],
+      "achievement_type": "leadership",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": null
+    },
+    {
+      "id": "ach-phe-007",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "December 2017 – February 2019"
+      },
+      "original_bullet": "Managed a £2m digital development budget and secured an additional £95k in innovation funding to support new product development across the PHE portfolio",
+      "cv_bullet": "Managed a £2m digital development budget and secured an additional £95k in innovation funding for new product development",
+      "rag_text": "Managed a £2 million digital development budget at Public Health England and successfully secured an additional £95,000 in innovation funding to support new product development across the PHE portfolio. Demonstrates financial management experience, ability to build and win funding bids, and accountability for significant public sector investment.",
+      "star": {
+        "situation": "PHE's digital portfolio required careful budget management and additional innovation funding to support new product development beyond the core budget.",
+        "task": "Manage the £2m digital development budget and secure additional funding for innovation.",
+        "action": "Managed the budget allocation across the digital portfolio and built a successful case to secure £95k in innovation funding.",
+        "result": "Maintained effective budget management across a £2m portfolio and secured an additional £95k for new product development."
+      },
+      "skills": [
+        "budget management",
+        "funding bids",
+        "financial management",
+        "public sector",
+        "investment"
+      ],
+      "keywords": [
+        "£2m",
+        "budget",
+        "£95k",
+        "innovation funding",
+        "financial management",
+        "PHE",
+        "public sector",
+        "funding"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": null
+    },
+    {
+      "id": "ach-drdoctor-003-li",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Lead Product Manager",
+        "company": "DrDoctor",
+        "location": "London",
+        "dates": "December 2022 – June 2024"
+      },
+      "original_bullet": "Led 0-1 discovery, scoping and product development for a new 'eMeet and Greet' automation product, winning 5 NHS pilot sites and generating over £1m in revenue",
+      "cv_bullet": "Led 0-to-1 discovery, scoping and development of the eMeet and Greet automation product, securing over £1m in NHS England funding",
+      "rag_text": "Led 0-to-1 discovery, scoping and product development for the eMeet and Greet automation product at DrDoctor. Won 5 NHS pilot sites through competitive bids, generating over £1m in revenue in total. Demonstrates ability to own the full 0-to-1 lifecycle from discovery through to commercial deployment, and a track record of winning NHS funding and pilot agreements at scale.",
+      "star": {
+        "situation": "DrDoctor needed to validate and fund new product opportunities in the NHS market, including the eMeet and Greet automation concept.",
+        "task": "Own the 0-to-1 lifecycle for new products from discovery through to funding, with NHS England as the primary funder.",
+        "action": "Led discovery, scoping and product development for the eMeet and Greet product and managed the NHS England funding bid — one of multiple bids led during this period.",
+        "result": "Won over £1m in NHS England funding for eMeet and Greet; successfully led 5 commercial bids in total during the role."
+      },
+      "skills": [
+        "0-to-1",
+        "product discovery",
+        "funding bids",
+        "NHS",
+        "commercial",
+        "stakeholder management"
+      ],
+      "keywords": [
+        "0-1",
+        "discovery",
+        "eMeet and Greet",
+        "£1m",
+        "NHS England",
+        "funding",
+        "5 bids",
+        "commercial",
+        "new product"
+      ],
+      "domains": [
+        "healthtech",
+        "NHS",
+        "B2B SaaS"
+      ],
+      "achievement_type": "0_to_1",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": "ach-drdoctor-003"
+    },
+    {
+      "id": "ach-drdoctor-004-li",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Lead Product Manager",
+        "company": "DrDoctor",
+        "location": "London",
+        "dates": "December 2022 – June 2024"
+      },
+      "original_bullet": "Managed a roadmap of experimentation for 5 development teams using data, research and qualitative insights to de-risk investment, grow adoption and reduce time to value by up to 50% on new product iterations",
+      "cv_bullet": "Managed a roadmap of experimentation across 5 development teams, using data and research to de-risk investment, grow adoption and reduce time to value by up to 50%",
+      "rag_text": "Managed a product experimentation roadmap across 5 development teams at DrDoctor. LinkedIn variant adds quantification: reduced time to value by up to 50% on new product iterations. Used data, research and qualitative insights to de-risk investment and grow adoption. Demonstrates measurable impact from structured experimentation at scale across multiple teams.",
+      "star": {
+        "situation": "DrDoctor had 5 development teams working on product iterations and needed a structured approach to de-risk investment and deliver value faster.",
+        "task": "Define and manage an experimentation roadmap that reduced time to value and investment risk across all teams.",
+        "action": "Designed and managed a data and insight-driven experimentation roadmap across all 5 teams, iterating continuously based on results.",
+        "result": "Reduced time to value by up to 50%, de-risked product investment decisions and grew adoption across new product iterations."
+      },
+      "skills": [
+        "roadmap management",
+        "experimentation",
+        "data-driven decisions",
+        "multi-team coordination",
+        "time to value"
+      ],
+      "keywords": [
+        "roadmap",
+        "experimentation",
+        "5 development teams",
+        "time to value",
+        "50%",
+        "de-risk",
+        "adoption",
+        "data"
+      ],
+      "domains": [
+        "healthtech",
+        "NHS",
+        "B2B SaaS"
+      ],
+      "achievement_type": "process_improvement",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": "ach-drdoctor-004"
+    },
+    {
+      "id": "ach-phe-004-li",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Senior Product Manager",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "December 2017 – February 2019"
+      },
+      "original_bullet": "Led a multi-disciplinary team to deliver a complete rebuild of the One You website through discovery, alpha, beta and live phases using Agile Scrum, resulting in 2x page views per session, sub-2-second load times and infrastructure resilient to 3.7 million hits in a day",
+      "cv_bullet": "Led a multi-disciplinary team through discovery, alpha, beta and live to completely rebuild the One You website using Agile Scrum — achieving 2x page views per session, sub-2-second load times and resilience to 3.7 million hits in a day",
+      "rag_text": "LinkedIn variant of ach-phe-004. Adds explicit reference to the full GDS-style delivery lifecycle: discovery, alpha, beta and live phases. Otherwise the same achievement: led a multi-disciplinary Agile Scrum team to rebuild the One You website, achieving 2x page views per session, sub-2-second load speed and infrastructure handling 3.7 million hits in a day. The lifecycle framing demonstrates fluency in GDS/public sector delivery methodology.",
+      "star": {
+        "situation": "The One You website needed a complete rebuild to improve UX, performance and infrastructure resilience ahead of major campaigns.",
+        "task": "Lead the rebuild through a full GDS-aligned delivery lifecycle (discovery, alpha, beta, live).",
+        "action": "Led a multi-disciplinary Agile Scrum team through discovery, alpha, beta and live phases to deliver the complete rebuild.",
+        "result": "2x increase in average page views per session, load speed under 2 seconds, infrastructure handling 3.7 million hits in one day."
+      },
+      "skills": [
+        "agile scrum",
+        "GDS delivery",
+        "discovery",
+        "alpha",
+        "beta",
+        "website rebuild",
+        "performance"
+      ],
+      "keywords": [
+        "One You",
+        "rebuild",
+        "discovery",
+        "alpha",
+        "beta",
+        "live",
+        "GDS",
+        "Agile Scrum",
+        "2x",
+        "page views",
+        "load speed",
+        "3.7 million"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": "ach-phe-004"
+    },
+    {
+      "id": "ctx-phe-po-001",
+      "entry_type": "role_context",
+      "job": {
+        "title": "Digital Product Owner",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "October 2014 – December 2017"
+      },
+      "original_bullet": "Product Owner for PHE's suite of consumer-facing digital health products, including the How Are You? health quiz, the One You campaign app portfolio and the Change4Life CRM programme",
+      "cv_bullet": "Product Owner for PHE's suite of consumer-facing digital health products including the How Are You? quiz, One You campaign apps and Change4Life CRM programme",
+      "rag_text": "Role context: Digital Product Owner at Public Health England from October 2014 to December 2017. Responsible for PHE's consumer-facing digital health products including the How Are You? health quiz, the One You campaign app portfolio and the Change4Life CRM programme. Precedes the Senior PM role at PHE (December 2017–February 2019). Demonstrates a long track record in public health digital product delivery.",
+      "star": null,
+      "skills": [
+        "product ownership",
+        "consumer digital",
+        "public health",
+        "CRM",
+        "app portfolio"
+      ],
+      "keywords": [
+        "PHE",
+        "Product Owner",
+        "How Are You",
+        "One You",
+        "Change4Life",
+        "CRM",
+        "consumer digital",
+        "public health"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital",
+        "consumer apps"
+      ],
+      "achievement_type": "role_context",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": null
+    },
+    {
+      "id": "ach-phe-po-001",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Digital Product Owner",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "October 2014 – December 2017"
+      },
+      "original_bullet": "Led an Agile Scrum team as Product Owner to build and iterate the How Are You? health quiz, a nationally promoted digital tool to help the public assess their health and take action",
+      "cv_bullet": "Led an Agile Scrum team to build and iterate the How Are You? health quiz — a nationally promoted tool helping the public assess and act on their health",
+      "rag_text": "Served as Product Owner leading an Agile Scrum team to build and iterate the How Are You? health quiz at Public Health England. The quiz was a nationally promoted consumer digital tool designed to help the public assess their health status and take actionable steps to improve it. Demonstrates experience as Product Owner on a high-visibility public health product, working in an Agile Scrum framework.",
+      "star": {
+        "situation": "PHE needed a consumer-facing tool to help the public easily assess their health and understand what steps to take to improve it.",
+        "task": "As Product Owner, own the delivery and iteration of the How Are You? health quiz.",
+        "action": "Led an Agile Scrum team through the build and ongoing iteration of the quiz, using user research and analytics to continuously improve the experience.",
+        "result": "Delivered and iterated a nationally promoted digital health assessment tool used by the UK public."
+      },
+      "skills": [
+        "product ownership",
+        "agile scrum",
+        "consumer digital",
+        "public health",
+        "user research"
+      ],
+      "keywords": [
+        "How Are You",
+        "health quiz",
+        "Product Owner",
+        "Agile Scrum",
+        "PHE",
+        "consumer digital",
+        "nationally promoted"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital",
+        "consumer apps"
+      ],
+      "achievement_type": "delivery",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": null
+    },
+    {
+      "id": "ach-phe-po-002",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Digital Product Owner",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "October 2014 – December 2017"
+      },
+      "original_bullet": "Grew the Change4Life CRM programme to over 500,000 email subscribers, using segmentation and personalisation to deliver targeted health behaviour change communications",
+      "cv_bullet": "Grew the Change4Life CRM programme to over 500,000 email subscribers using segmentation and personalisation for targeted health behaviour change communications",
+      "rag_text": "Grew PHE's Change4Life CRM programme to over 500,000 email subscribers. Used audience segmentation and personalisation to deliver targeted health behaviour change communications to different user groups. Demonstrates experience building and scaling a large CRM / email marketing programme, with a focus on personalisation and behaviour change at significant scale.",
+      "star": {
+        "situation": "PHE's Change4Life CRM programme needed to grow its subscriber base and improve the targeting and relevance of its communications to drive health behaviour change.",
+        "task": "Grow the CRM programme and improve the quality and targeting of health communications.",
+        "action": "Applied segmentation and personalisation strategies to the CRM programme to make communications more relevant and targeted for different audience groups.",
+        "result": "Grew the programme to over 500,000 email subscribers with more targeted and personalised health communications."
+      },
+      "skills": [
+        "CRM",
+        "email marketing",
+        "segmentation",
+        "personalisation",
+        "behaviour change",
+        "growth"
+      ],
+      "keywords": [
+        "CRM",
+        "Change4Life",
+        "500,000",
+        "email subscribers",
+        "segmentation",
+        "personalisation",
+        "behaviour change",
+        "PHE"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital",
+        "consumer"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": null
+    },
+    {
+      "id": "ach-phe-po-003",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Digital Product Owner",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "October 2014 – December 2017"
+      },
+      "original_bullet": "Led the re-skin and redesign of the One You mobile app portfolio in preparation for the national One You campaign launch, delivering refreshed UX across multiple apps on iOS and Android",
+      "cv_bullet": "Led the re-skin and redesign of the One You app portfolio ahead of the national campaign launch, refreshing UX across multiple apps on iOS and Android",
+      "rag_text": "Led the re-skin and redesign of Public Health England's One You mobile app portfolio in preparation for the national One You campaign launch. Delivered refreshed UX and visual design across multiple apps on iOS and Android platforms. Demonstrates experience owning large-scale design refresh projects across a multi-app portfolio, coordinating design and engineering to hit a campaign launch deadline.",
+      "star": {
+        "situation": "PHE was preparing to launch the national One You campaign and needed the mobile app portfolio to be refreshed with updated branding and UX in time for the campaign.",
+        "task": "Lead the re-skin and redesign of the One You app portfolio across iOS and Android.",
+        "action": "Led the design refresh programme across the app portfolio, coordinating design and engineering teams to deliver refreshed UX and visual design on both platforms.",
+        "result": "Delivered a refreshed One You app portfolio ready for the national campaign launch on iOS and Android."
+      },
+      "skills": [
+        "mobile product",
+        "UX",
+        "iOS",
+        "Android",
+        "app portfolio",
+        "design"
+      ],
+      "keywords": [
+        "One You",
+        "re-skin",
+        "redesign",
+        "app portfolio",
+        "iOS",
+        "Android",
+        "UX",
+        "campaign",
+        "PHE"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital",
+        "consumer apps"
+      ],
+      "achievement_type": "delivery",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": null
+    },
+    {
+      "id": "ach-phe-po-004",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Digital Product Owner",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "October 2014 – December 2017"
+      },
+      "original_bullet": "Supported the £6m One You campaign launch, resulting in over 1 million How Are You? quiz completions and 200,000 app downloads in the first month",
+      "cv_bullet": "Supported the £6m One You campaign launch, driving over 1 million How Are You? quiz completions and 200,000 app downloads in the first month",
+      "rag_text": "Supported the £6 million One You public health campaign launch at PHE. The campaign drove over 1 million completions of the How Are You? health quiz and 200,000 app downloads within the first month. Demonstrates experience working on high-profile, high-budget national campaigns and delivering digital product performance at significant scale.",
+      "star": {
+        "situation": "PHE was launching the £6m One You national public health campaign, with the How Are You? quiz and app portfolio as central digital components.",
+        "task": "Support the digital product side of the campaign launch to maximise quiz completions and app downloads.",
+        "action": "Ensured digital products were campaign-ready and worked with marketing and campaign teams to support the launch of the One You initiative.",
+        "result": "Over 1 million How Are You? quiz completions and 200,000 app downloads achieved in the first month of the campaign."
+      },
+      "skills": [
+        "campaign launch",
+        "consumer digital",
+        "growth",
+        "public health",
+        "partnerships"
+      ],
+      "keywords": [
+        "One You",
+        "£6m",
+        "campaign",
+        "1 million",
+        "quiz completions",
+        "200,000",
+        "app downloads",
+        "PHE",
+        "How Are You"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital",
+        "consumer apps"
+      ],
+      "achievement_type": "quantified_impact",
+      "quantified": true,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": null
+    },
+    {
+      "id": "ach-phe-po-005",
+      "entry_type": "achievement",
+      "job": {
+        "title": "Digital Product Owner",
+        "company": "Public Health England (PHE)",
+        "location": "London",
+        "dates": "October 2014 – December 2017"
+      },
+      "original_bullet": "Line managed product and digital team members within PHE, supporting their professional development and performance",
+      "cv_bullet": "Line managed product and digital team members at PHE, providing coaching and professional development support",
+      "rag_text": "Line managed product and digital team members at Public Health England, providing coaching, mentoring and professional development support. Demonstrates people management experience at PHE in addition to the later Senior PM role — showing a consistent track record of people leadership throughout the PHE period.",
+      "star": {
+        "situation": "As a Product Owner at PHE, Alasdair had line management responsibility for product and digital team members who needed development support.",
+        "task": "Provide line management, coaching and professional development support to direct reports.",
+        "action": "Provided regular 1-1s, coaching and professional development support to product and digital team members.",
+        "result": "Supported the growth and performance of product and digital team members within PHE."
+      },
+      "skills": [
+        "people management",
+        "coaching",
+        "mentoring",
+        "professional development"
+      ],
+      "keywords": [
+        "line management",
+        "coaching",
+        "mentoring",
+        "professional development",
+        "PHE",
+        "team"
+      ],
+      "domains": [
+        "public health",
+        "public sector",
+        "digital"
+      ],
+      "achievement_type": "leadership",
+      "quantified": false,
+      "framing": "b2b_saas",
+      "source": "linkedin_profile",
+      "variant_of": null
+    },
+    {
+      "id": "profile-neko-001",
+      "entry_type": "profile",
+      "job": null,
+      "original_bullet": "Mission-driven Product Leader with 8+ years building consumer-grade AI-powered products in regulated environments. Currently leading 0-1 product development at RegNav, automating complex compliance workflows for MedTech manufacturers. I have a strong track record of delivering preventative healthcare products at scale, having secured over £1m in funding from NHS England to deliver automated referral management workflows at DrDoctor; and grown the OneYou mobile app portfolio to over 3 million downloads at PHE.",
+      "cv_bullet": "Mission-driven Product Leader with 8+ years building consumer-grade AI-powered products in regulated environments. Currently leading 0-1 product development at RegNav, automating complex compliance workflows for MedTech manufacturers. I have a strong track record of delivering preventative healthcare products at scale, having secured over £1m in funding from NHS England to deliver automated referral management workflows at DrDoctor; and grown the OneYou mobile app portfolio to over 3 million downloads at PHE.",
+      "rag_text": "Neko Health-specific profile paragraph. Mission-driven framing, 8+ years, consumer-grade AI products, regulated environments. RegNav: 0-to-1, compliance automation, MedTech. DrDoctor: £1m NHS funding, automated referral management. PHE: preventative healthcare, One You portfolio 3m+ downloads.",
+      "star": null,
+      "skills": [
+        "product leadership",
+        "AI products",
+        "0-to-1",
+        "regulated environments",
+        "healthtech",
+        "consumer digital"
+      ],
+      "keywords": [
+        "mission-driven",
+        "8+ years",
+        "consumer-grade",
+        "AI",
+        "regulated",
+        "RegNav",
+        "MedTech",
+        "NHS",
+        "£1m",
+        "DrDoctor",
+        "preventative healthcare",
+        "One You",
+        "3 million downloads",
+        "PHE"
+      ],
+      "domains": [
+        "healthtech",
+        "AI",
+        "regulated",
+        "MedTech",
+        "public health"
+      ],
+      "achievement_type": "profile",
+      "quantified": true,
+      "framing": "healthtech",
+      "source": "neko_application_2026",
+      "variant_of": "profile-healthtech-001"
+    }
+  ]
+}

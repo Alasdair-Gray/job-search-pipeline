@@ -35,11 +35,12 @@ CONFIG_PATH      = BASE_DIR / "pipeline_config.json"
 JOBS_DB          = BASE_DIR / "jobs_db.csv"
 RATIONALES_FILE  = BASE_DIR / "score_rationales.json"
 LOG_FILE         = BASE_DIR / "score_log.txt"
-CV_DB_PATH       = (
-    BASE_DIR.parent
-    / "Job app CV builder"
-    / "Job app CV builder tech files"
-    / "cv_master_database.json"
+CV_DB_PATH       = Path(os.environ.get("CV_DB_PATH", "")).expanduser() if os.environ.get("CV_DB_PATH") else (
+    # 1. Local copy in the same folder (used on Render)
+    BASE_DIR / "cv_master_database.json"
+    if (BASE_DIR / "cv_master_database.json").exists()
+    # 2. Original relative path (used on Mac)
+    else BASE_DIR.parent / "Job app CV builder" / "Job app CV builder tech files" / "cv_master_database.json"
 )
 
 # ---------------------------------------------------------------------------
