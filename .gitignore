@@ -10,7 +10,9 @@ score_rationales.json
 raw_scrape_*.json
 
 # Logs
-*.txt
+*_log.txt
+ingest_log.txt
+score_log.txt
 
 # Python
 __pycache__/

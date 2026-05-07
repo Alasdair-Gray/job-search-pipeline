@@ -1,0 +1,10 @@
+# Web app dependencies (separate from pipeline dependencies in the venv)
+flask>=3.0.0
+gunicorn>=21.2.0
+
+# Pipeline dependencies (needed when scraper/scorer run on the server)
+python-jobspy>=0.1.0
+rapidfuzz>=3.0.0
+pandas>=2.0.0
+anthropic>=0.25.0
+python-dotenv>=1.0.0
