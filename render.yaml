@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: job-pipeline
+    env: python
+    plan: starter                        # Starter plan required for persistent disk
+    buildCommand: pip install -r requirements_web.txt
+    startCommand: gunicorn app:app --workers 2 --bind 0.0.0.0:$PORT
+
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true              # Render auto-generates a secure random value
+      - key: DATA_DIR
+        value: /data                     # Points to the persistent disk below
+      - key: ANTHROPIC_API_KEY
+        sync: false                      # You set this manually in the Render dashboard
+
+    disk:
+      name: pipeline-data
+      mountPath: /data                   # SQLite DB and CSV files live here
+      sizeGB: 1

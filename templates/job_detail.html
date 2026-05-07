@@ -1,0 +1,171 @@
+{% extends "base.html" %}
+{% block title %}{{ job.title }} @ {{ job.company }} — Job Pipeline{% endblock %}
+
+{% block content %}
+
+<div class="detail-layout">
+
+  <!-- ── Main content ── -->
+  <div class="detail-main">
+
+    <a href="/" class="back-link">← Back to dashboard</a>
+
+    <h1 class="detail-title">{{ job.title }}</h1>
+    <div class="detail-company">{{ job.company }}</div>
+
+    <!-- Score breakdown (only shown if job has been scored) -->
+    {% if job.score_overall %}
+      {% set overall = job.score_overall | float %}
+      <div class="score-section">
+        <div class="score-overall {{ 'score-high' if overall >= 75 else ('score-mid' if overall >= 55 else 'score-low') }}">
+          <span class="score-number">{{ overall | int }}</span>
+          <span class="score-denom">/100</span>
+        </div>
+
+        <div class="score-dimensions">
+
+          <div class="dimension">
+            <div class="dim-header">
+              <span class="dim-label">Skills <span class="dim-weight">(40%)</span></span>
+              <span class="dim-score">{{ job.score_skills }}/10</span>
+            </div>
+            <div class="dim-bar-track">
+              <div class="dim-bar-fill" style="width: {{ (job.score_skills | float * 10) | int }}%"></div>
+            </div>
+            {% if rationale and rationale.skills %}
+              <p class="dim-rationale">{{ rationale.skills }}</p>
+            {% endif %}
+          </div>
+
+          <div class="dimension">
+            <div class="dim-header">
+              <span class="dim-label">Seniority <span class="dim-weight">(25%)</span></span>
+              <span class="dim-score">{{ job.score_seniority }}/10</span>
+            </div>
+            <div class="dim-bar-track">
+              <div class="dim-bar-fill" style="width: {{ (job.score_seniority | float * 10) | int }}%"></div>
+            </div>
+            {% if rationale and rationale.seniority %}
+              <p class="dim-rationale">{{ rationale.seniority }}</p>
+            {% endif %}
+          </div>
+
+          <div class="dimension">
+            <div class="dim-header">
+              <span class="dim-label">Industry <span class="dim-weight">(20%)</span></span>
+              <span class="dim-score">{{ job.score_industry }}/10</span>
+            </div>
+            <div class="dim-bar-track">
+              <div class="dim-bar-fill" style="width: {{ (job.score_industry | float * 10) | int }}%"></div>
+            </div>
+            {% if rationale and rationale.industry %}
+              <p class="dim-rationale">{{ rationale.industry }}</p>
+            {% endif %}
+          </div>
+
+          <div class="dimension">
+            <div class="dim-header">
+              <span class="dim-label">Salary <span class="dim-weight">(15%)</span></span>
+              <span class="dim-score">{{ job.score_salary }}/10</span>
+            </div>
+            <div class="dim-bar-track">
+              <div class="dim-bar-fill" style="width: {{ (job.score_salary | float * 10) | int }}%"></div>
+            </div>
+            {% if rationale and rationale.salary %}
+              <p class="dim-rationale">{{ rationale.salary }}</p>
+            {% endif %}
+          </div>
+
+        </div>
+      </div>
+    {% endif %}
+
+    <!-- Job description -->
+    <div class="description-section">
+      <h2>Job Description</h2>
+      <div class="description-body">{{ job.description }}</div>
+    </div>
+
+  </div>
+
+  <!-- ── Sidebar ── -->
+  <div class="detail-sidebar">
+
+    <button class="btn btn-cv" id="btn-cv-builder" onclick="launchCVBuilder('{{ job.job_id }}')">
+      🚀 Launch CV Builder
+    </button>
+    <div id="cv-builder-msg" class="cv-msg hidden"></div>
+
+    {% if job.url %}
+      <a href="{{ job.url }}" target="_blank" rel="noopener" class="btn btn-outline">
+        View original listing ↗
+      </a>
+    {% endif %}
+
+    <div class="meta-card">
+      <div class="meta-row">
+        <span class="meta-key">Location</span>
+        <span class="meta-val">{{ job.location or '—' }}</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-key">Salary</span>
+        <span class="meta-val">{{ job.salary_raw or '—' }}</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-key">Seniority</span>
+        <span class="meta-val">{{ job.seniority or '—' }}</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-key">Type</span>
+        <span class="meta-val">{{ job.employment_type or '—' }}</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-key">Industry</span>
+        <span class="meta-val">{{ job.industry or '—' }}</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-key">Posted</span>
+        <span class="meta-val">{{ job.posted_at[:10] if job.posted_at else '—' }}</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-key">Scraped</span>
+        <span class="meta-val">{{ job.scraped_at[:10] if job.scraped_at else '—' }}</span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-key">Status</span>
+        <span class="status-pill status-{{ job.status }}">{{ job.status }}</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+function launchCVBuilder(jobId) {
+  const btn = document.getElementById('btn-cv-builder');
+  const msg = document.getElementById('cv-builder-msg');
+  btn.disabled = true;
+  btn.textContent = '⏳ Launching…';
+
+  fetch('/api/launch-cv-builder/' + jobId, { method: 'POST' })
+    .then(r => r.json())
+    .then(data => {
+      btn.textContent = '✓ Launched';
+      btn.classList.add('btn-success');
+      msg.textContent = data.message;
+      msg.classList.remove('hidden');
+      msg.classList.add('cv-msg-ok');
+    })
+    .catch(() => {
+      btn.textContent = '🚀 Launch CV Builder';
+      btn.disabled = false;
+      msg.textContent = 'Something went wrong — please try again.';
+      msg.classList.remove('hidden');
+      msg.classList.add('cv-msg-err');
+    });
+}
+</script>
+{% endblock %}

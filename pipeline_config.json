@@ -1,0 +1,68 @@
+{
+  "filters": {
+    "max_age_hours": 24,
+    "min_salary_gbp": 120000,
+    "exclude_industries": [
+      "fintech",
+      "financial services",
+      "banking",
+      "insurance",
+      "payments",
+      "cryptocurrency",
+      "crypto",
+      "hedge fund",
+      "trading",
+      "forex",
+      "wealth management",
+      "investment banking",
+      "insurtech"
+    ],
+    "exclude_industry_description_keywords": [
+      "fintech",
+      "financial services",
+      "investment bank",
+      "hedge fund",
+      "cryptocurrency",
+      "crypto exchange",
+      "forex trading",
+      "wealth management platform",
+      "banking software",
+      "insurtech"
+    ],
+    "min_years_pm_experience": 5
+  },
+  "search_params": {
+    "keywords": "product manager",
+    "job_titles": [
+      "Head of Product",
+      "Principal Product Manager",
+      "Senior Product Manager",
+      "Group Product Manager",
+      "Lead Product Manager"
+    ],
+    "locations": ["London", "Remote"],
+    "posted_within_hours": 24
+  },
+  "scoring_weights": {
+    "_notes": "Weights must sum to 1.0. These are updated by the learning loop as you give feedback.",
+    "skills":    0.40,
+    "seniority": 0.25,
+    "industry":  0.20,
+    "salary":    0.15
+  },
+  "scoring_model": "claude-haiku-4-5-20251001",
+  "field_mapping": {
+    "notes": "Maps internal field names to JobSpy output field names used by scrape.py. Right-hand values are checked in order; first match wins.",
+    "job_id": ["id", "jobId", "job_id"],
+    "title": ["title", "jobTitle"],
+    "company": ["company", "companyName"],
+    "location": ["location", "jobLocation"],
+    "salary": ["salary", "salaryRange", "compensation"],
+    "description": ["descriptionText", "description", "jobDescription"],
+    "url": ["jobUrl", "url", "applyUrl"],
+    "posted_at": ["postedAt", "datePosted", "publishedAt"],
+    "industries": ["industries", "industry"],
+    "employment_type": ["employmentType", "jobType"],
+    "seniority": ["seniorityLevel", "seniority"]
+  }
+}

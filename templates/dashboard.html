@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% block title %}Dashboard — Job Pipeline{% endblock %}
+
+{% block content %}
+
+<!-- Stats bar -->
+<div class="stats-bar">
+  <div class="stat">
+    <span class="stat-value">{{ stats.total }}</span>
+    <span class="stat-label">Total jobs</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">{{ stats.scored }}</span>
+    <span class="stat-label">Scored</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">{{ stats.new }}</span>
+    <span class="stat-label">Unscored</span>
+  </div>
+  <div class="stat">
+    <span class="stat-value">{{ stats.top_score if stats.top_score else '—' }}</span>
+    <span class="stat-label">Top score</span>
+  </div>
+  <div class="stat stat-wide">
+    <span class="stat-value stat-small">{{ stats.last_scraped }}</span>
+    <span class="stat-label">Last scraped</span>
+  </div>
+</div>
+
+<!-- Action buttons -->
+<div class="actions-bar">
+  <button class="btn btn-primary" id="btn-scrape" onclick="runTask('scrape')">
+    🔍 Run Scraper
+  </button>
+  <button class="btn btn-primary" id="btn-score" onclick="runTask('score')">
+    ⚡ Run Scorer
+  </button>
+  <span id="task-status-badge" class="status-pill hidden"></span>
+</div>
+
+<!-- Filter tabs -->
+<div class="filter-tabs">
+  <a href="/?status=all"    class="tab {% if status_filter == 'all'    %}active{% endif %}">All ({{ stats.total }})</a>
+  <a href="/?status=scored" class="tab {% if status_filter == 'scored' %}active{% endif %}">Scored ({{ stats.scored }})</a>
+  <a href="/?status=new"    class="tab {% if status_filter == 'new'    %}active{% endif %}">Unscored ({{ stats.new }})</a>
+</div>
+
+<!-- Job list -->
+<div class="job-list">
+  {% if not jobs %}
+    <div class="empty-state">
+      <div class="empty-icon">📋</div>
+      <p>No jobs here yet.</p>
+      <p class="empty-hint">Run the scraper to pull in today's listings, then run the scorer to rank them.</p>
+    </div>
+  {% endif %}
+
+  {% for job in jobs %}
+    {% if job.score_overall is not none and job.score_overall != '' %}
+      {% set score = job.score_overall | float %}
+      {% set score_class = 'score-high' if score >= 75 else ('score-mid' if score >= 55 else 'score-low') %}
+    {% else %}
+      {% set score = none %}
+      {% set score_class = 'score-none' %}
+    {% endif %}
+
+    <a href="/job/{{ job.job_id }}" class="job-card">
+      <div class="job-card-score">
+        <div class="score-badge {{ score_class }}">
+          {% if score is not none %}{{ score | int }}{% else %}—{% endif %}
+        </div>
+      </div>
+
+      <div class="job-card-body">
+        <div class="job-title">{{ job.title }}</div>
+        <div class="job-company">{{ job.company }}</div>
+        <div class="job-meta">
+          {% if job.location %}
+            <span class="meta-chip">📍 {{ job.location }}</span>
+          {% endif %}
+          {% if job.salary_raw %}
+            <span class="meta-chip">💰 {{ job.salary_raw }}</span>
+          {% endif %}
+          {% if job.industry %}
+            <span class="meta-chip">🏢 {{ job.industry }}</span>
+          {% endif %}
+          {% if job.seniority %}
+            <span class="meta-chip">{{ job.seniority }}</span>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="job-card-right">
+        {% if job.posted_at %}
+          <span class="posted-date">{{ job.posted_at[:10] }}</span>
+        {% endif %}
+        <span class="status-pill status-{{ job.status }}">{{ job.status }}</span>
+      </div>
+    </a>
+  {% endfor %}
+</div>
+
+{% endblock %}

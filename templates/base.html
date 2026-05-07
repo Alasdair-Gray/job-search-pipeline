@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Job Pipeline{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">🎯 Job Pipeline</a>
+    </div>
+  </header>
+
+  <main class="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Task overlay: shown while scraper/scorer is running -->
+  <div id="task-overlay" class="overlay hidden">
+    <div class="overlay-box">
+      <div class="overlay-header">
+        <span id="overlay-title">Running…</span>
+        <div id="overlay-spinner" class="spinner"></div>
+      </div>
+      <pre id="overlay-log" class="overlay-log"></pre>
+      <div class="overlay-footer">
+        <button class="btn btn-secondary" id="overlay-close" onclick="closeOverlay()" style="display:none">
+          Close &amp; Refresh
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

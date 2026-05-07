@@ -1,0 +1,26 @@
+# Environment / secrets
+.env
+
+# Database files (persist on Render's disk, not in the repo)
+jobs.db
+jobs_db.csv
+score_rationales.json
+
+# Raw scrape output
+raw_scrape_*.json
+
+# Logs
+*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Virtual environment
+venv/
+.venv/
+
+# macOS
+.DS_Store
